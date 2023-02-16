@@ -4,9 +4,9 @@
         
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             
-            <inertia-link class="navbar-brand" href="/">
+            <Link class="navbar-brand" href="/">
                 <img src="/images/dws-logo.png" class="h-12 sm:h-12" alt="Dima Web Solutions Logo" />
-            </inertia-link>
+            </Link>
 
             <div class="sm:hidden">
                 <button @click="isOpen = !isOpen" type="button" class="block text-gray-700 hover:text-gray-600 focus:text-gray-600 focus:outline-none">
@@ -20,7 +20,7 @@
             <div :class="isOpen ? 'block' : 'hidden'" class="items-center justify-between  w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                 <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-slate-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-slate-50 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     
-                    <inertia-link 
+                    <Link 
                         :href="route('homepage')"
                         :class="{
                             'font-semibold block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white':  $page.props.slug == 'home' ,
@@ -28,9 +28,9 @@
                         }
                         "
                         >Homepage
-                    </inertia-link>
+                    </Link>
 
-                    <inertia-link
+                    <Link
                         :href="route('about')"
                         :class="{
                             'font-semibold block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white':  $page.props.slug == 'about' ,
@@ -38,9 +38,9 @@
                         }
                         "
                         >About Us
-                    </inertia-link>
+                    </Link>
 
-                    <inertia-link
+                    <Link
                         :href="route('contact')"
                         :class="{
                             'font-semibold block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white':  $page.props.slug == 'contact' ,
@@ -48,7 +48,7 @@
                         }
                         "
                         >Contact
-                    </inertia-link>
+                    </Link>
 
                 </ul>
             </div>
