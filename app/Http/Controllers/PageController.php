@@ -108,4 +108,18 @@ class PageController extends Controller
             ]
         );
     }
+
+    /**
+     * Submitted contact form. Sends an email
+     *
+     * @param Request $request
+     * @return void
+     */
+    public function contactSubmit(Request $request)
+    {
+    
+        dd($request->all());
+
+        return redirect()->back();
+    }
 }

@@ -1,3 +1,15 @@
+<script setup>
+
+import { useForm } from '@inertiajs/vue3'
+
+const form = useForm({
+  name: null,
+  email: null,
+  message: null,
+})
+
+</script>
+
 <template>
 
     <Head>
@@ -25,7 +37,7 @@
                                 
                                 <h1 class="text-3xl font-bold mt-0 mb-4">{{ $page.props.title }}</h1>
 
-                                <form @submit.prevent="submit">
+                                <form @submit.prevent="form.post('/contact')">
                                 <div class="form-group mb-6">
                                     <input type="text" class="form-control block
                                     w-full
@@ -173,20 +185,6 @@
 </template>
 
 <script>
-
-// import { reactive } from 'vue'
-// import { router } from '@inertiajs/vue3'
-
-// const form = reactive({
-//   name: 1,
-//   email: 2,
-//   message: 3,
-// })
-
-// function submit() {
-//   router.post('/contact', form)
-// }
-
 export default {
     
     data() { 
