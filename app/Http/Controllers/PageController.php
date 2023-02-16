@@ -8,6 +8,8 @@ use Voyager;
 use Inertia\Inertia;
 use TCG\Voyager\Models\Page;
 
+use App\Models\Gallery;
+
 class PageController extends Controller
 {
     /**
@@ -50,12 +52,34 @@ class PageController extends Controller
             $page->image = null;
         }
 
+        $galleries = Gallery::orderBy('created_at', 'desc')->get();
+
+        foreach ($galleries as $gallery) {
+            $gallery->images = json_decode($gallery->images);
+
+            $tmpGalleryImages = array();
+
+            foreach ($gallery->images as $img) {
+
+                $img = [
+                    'thumb' => Voyager::image($img),
+                    'original' => Voyager::image($gallery->getThumbnail($img, 'cropped'))
+                ];
+
+                array_push($tmpGalleryImages, $img);
+            }
+
+            $gallery->images = $tmpGalleryImages;
+
+        }
+
         return Inertia::render(
             'About',
             [
                 'title' => $page->title,
                 'slug' => $page->slug,
                 'page' => $page,
+                'galleries' => $galleries
             ]
         );
     }

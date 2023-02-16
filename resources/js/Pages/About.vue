@@ -132,7 +132,25 @@
                     </div>
 
                     <div class="flex flex-wrap items-center text-center mt-4">
-                        <div class="grow">
+                        
+                        <div v-for="gallery in $page.props.galleries" :key="gallery.id">
+                            <p class="font-bold mb-1">{{  gallery.title }}</p>
+
+                            <lightgallery
+                                :settings="{ speed: 500, plugins: plugins }"
+                                :onInit="onInit"
+                                :onBeforeSlide="onBeforeSlide"
+                                class="mb-4"
+                            >
+
+                                <a :href="img.thumb" v-for="(img) in gallery.images" class="gallery-item">
+                                    <img :src="img.original" />
+                                </a>
+                                
+                            </lightgallery>
+                        </div>
+
+                        <!-- <div class="grow">
                             <p class="font-bold mb-1">Jax</p>
                             <p class="text-gray-500">
                                 My trusty assistant
@@ -318,10 +336,7 @@
                             <a href="https://dummyimage.com/1600/ffffff/ccaaff" class="gallery-item">
                                 <img alt="img2" src="https://dummyimage.com/1600/ffffff/ccaaff" />
                             </a>
-
-
-                            ...
-                        </lightgallery>
+                        </lightgallery> -->
                     </div>
 
                 </div>
@@ -344,7 +359,7 @@ export default {
     data() { 
         return {
             isOpen: false,
-            plugins: [lgThumbnail, lgZoom],
+            plugins: [lgThumbnail, lgZoom]
         }
     },
 
