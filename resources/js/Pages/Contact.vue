@@ -8,12 +8,18 @@ const form = useForm({
   message: null,
 })
 
+function submit() {
+    form.post('/contact', {
+        preserveScroll: true,
+        onSuccess: () => form.reset(),
+    });
+}
 </script>
 
 <template>
 
     <Head>
-        <title>{{ $page.props.title }} - My awesome app</title>
+        <title>{{ $page.props.title }} - DWS</title>
     </Head>
 
     <header>
@@ -28,7 +34,7 @@ const form = useForm({
             <!-- Section: Design Block -->
             <section class="dark:bg-gray-900">
 
-                <div class="relative overflow-hidden bg-no-repeat bg-cover" style="background-position: 50%; background-image: url('./images/contact-page.jpg'); height: 400px;">
+                <div class="relative overflow-hidden bg-no-repeat bg-cover" style="background-position: 50%; background-image: url('/images/contact-page.jpg'); height: 400px;">
                 </div>
                 <div class="container text-gray-800 px-4 md:px-12">
                     <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6" style="margin-top: -100px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
@@ -37,7 +43,7 @@ const form = useForm({
                                 
                                 <h1 class="text-3xl font-bold mt-0 mb-4">{{ $page.props.title }}</h1>
 
-                                <form @submit.prevent="form.post('/contact')">
+                                <form @submit.prevent="submit">
                                 <div class="form-group mb-6">
                                     <input type="text" class="form-control block
                                     w-full
@@ -91,13 +97,14 @@ const form = useForm({
                                     focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
                                 "  id="message" v-model="form.message" rows="3" placeholder="Message"></textarea>
                                 </div>
-                                <div class="form-group form-check text-center mb-6">
-                                    <input type="checkbox"
-                                    class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
-                                    id="exampleCheck87" checked>
-                                    <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">Send me a copy of this
-                                    message</label>
+                                <div v-if="$page.props.flash.error" class="alert">
+                                    {{ $page.props.flash.error }}
                                 </div>
+
+                                <div v-if="$page.props.flash.success" class="success">
+                                    {{ $page.props.flash.success }}
+                                </div>
+                                
                                 <button type="submit" class="
                                 w-full
                                 px-6
@@ -115,7 +122,9 @@ const form = useForm({
                                 active:bg-blue-800 active:shadow-lg
                                 transition
                                 duration-150
-                                ease-in-out">Send</button>
+                                ease-in-out"
+                                :disabled="form.processing"
+                                >Send</button>
                                 </form>
                             </div>
                             <div class="grow-0 shrink-0 basis-auto w-full xl:w-7/12">

@@ -10,6 +10,8 @@ use TCG\Voyager\Models\Page;
 
 use App\Models\Gallery;
 
+use App\Mail\SendKontakt;
+
 class PageController extends Controller
 {
     /**
@@ -117,9 +119,15 @@ class PageController extends Controller
      */
     public function contactSubmit(Request $request)
     {
-    
-        dd($request->all());
+        $mailData = array(
+            'name'     => $request->name,
+            'email'     => $request->email,
+            'message' => nl2br($request->message),
+        );
 
-        return redirect()->back();
+        \Mail::to(setting('site.admin_kontakt_email'))
+            ->send(new SendKontakt($mailData)); 
+
+        return redirect()->back()->with(['success' => 'E-Mail sent!']);
     }
 }

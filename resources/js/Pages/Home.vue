@@ -1,7 +1,7 @@
 <template>
 
     <Head>
-        <title>{{ $page.props.title }} - My awesome app</title>
+        <title>{{ $page.props.title }} - DWS</title>
     </Head>
 
     <header>
