@@ -2,6 +2,8 @@
 
     <Head>
         <title>{{ $page.props.title }} - DWS</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     </Head>
 
     <header>
@@ -12,64 +14,81 @@
 
     <main class="min-h-screen bg-slate-50">
         <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-
-            <section class="dark:bg-gray-900">
+            
+            <!-- Section: Design Block -->
+            <section class="my-8 text-gray-800">
                 
-                <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-10">
-                    
-                    <h1 class="text-3xl font-bold mt-0 mb-4">{{ $page.props.title }}</h1>
+                <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-10">
 
-                    <div class="flex flex-wrap items-center">
-                        <div class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0 md:px-6">
-                            <div class="relative overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg" data-mdb-ripple="true"
-                            data-mdb-ripple-color="light" style="background-position: 50%">
-                            <img src="https://mdbootstrap.com/img/new/textures/full/126.jpg" class="w-full" />
-                            <a href="#!">
-                                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                                style="background-color: rgba(0, 0, 0, 0.4)">
-                                <div class="flex justify-center items-center h-full">
-                                    <div class="px-6 py-12 md:px-12 text-white text-center">
-                                    <h3 class="text-2xl uppercase font-bold mb-6">
-                                        The future is <u style="color: hsl(231, 52.6%, 85%)">now</u>
-                                    </h3>
-                                    <p style="color: hsl(231, 52.6%, 85%)">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quia
-                                        laboriosam error consequuntur fugit, doloribus rerum, iure nesciunt amet
-                                        quidem veniam cupiditate hic fugiat dolore aperiam quisquam libero earum
-                                        quibusdam?
-                                    </p>
+                    <div class="block rounded-lg shadow-lg bg-white">
+                        <div class="flex flex-wrap items-center">
+                            <div class="hidden lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
+                                <img src="/images/dani-office.jpg"
+                                class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
+                            </div>
+                            <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
+                                <div class="px-6 py-12 md:px-12 text-gray-800">
+
+                                    <div class="md:flex lg:hidden mb-6">
+                                        <img src="/images/dani-office.jpg"
+                                        class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
+                                    </div>
+
+                                    <h2 class="text-2xl font-bold mb-4">Technologies I use</h2>
+                                    
+                                    <div class="grid grid-cols-4 gap-6">
+                                        <div class="mb-4">
+                                            <p class="font-bold mb-1">Laravel</p>
+                                            <p class="text-gray-500 text-6xl">
+                                                <i class="devicon-laravel-plain-wordmark colored"></i>
+                                            </p>
+                                        </div>
+            
+                                        <div class="mb-4">
+                                            <p class="font-bold mb-1">PHP</p>
+                                            <p class="text-gray-500 text-6xl">
+                                                <i class="devicon-php-plain colored"></i>
+                                            </p>
+                                        </div>
+            
+                                        <div class="mb-4">
+                                            <p class="font-bold mb-1">MySQL</p>
+                                            <p class="text-gray-500 text-6xl">
+                                                <i class="devicon-mysql-plain-wordmark colored"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="mb-4">
+                                            <p class="font-bold mb-1">jQuery</p>
+                                            <p class="text-gray-500 text-6xl">
+                                                <i class="devicon-jquery-plain-wordmark colored"></i>
+                                            </p>
+                                        </div>
+            
+                                        <div class="mb-4">
+                                            <p class="font-bold mb-1">Vue.js</p>
+                                            <p class="text-gray-500 text-6xl">
+                                                <i class="devicon-vuejs-plain-wordmark colored"></i>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                                </div>
-                                <div class="relative overflow-hidden bg-no-repeat bg-cover">
-                                    <div
-                                        class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                                        style="background-color: rgba(251, 251, 251, 0.2)">
-                                    </div>
-                                </div>
-                            </a>
                             </div>
-                        </div>
-
-                        <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12 md:px-6">
-                            <div class="flex mb-12">
-                                <div class="grow">
-                                    <p class="font-bold mb-1">Support 24/7</p>
-                                    <p class="text-gray-500">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quisquam quibusdam
-                                    modi sapiente magni molestias pariatur facilis reprehenderit facere aliquam ex.
-                                    </p>
-                                </div>
-
-                            </div>
-
                         </div>
                     </div>
 
-                    <div class="flex flex-wrap items-center text-center mt-4">
+                </div>
+            </section>
+            <!-- Section: Design Block -->
+
+            <section class="dark:bg-gray-900">
+                
+                <div class="px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-10">
+                    
+                    <div class="flex flex-wrap items-center text-center">
                         
                         <div v-for="gallery in $page.props.galleries" :key="gallery.id">
-                            <p class="font-bold mb-1">{{  gallery.title }}</p>
+                            <p class="text-gray-800 text-3xl font-bold mb-1">{{  gallery.title }}</p>
 
                             <lightgallery
                                 :settings="{ speed: 500, plugins: plugins }"
@@ -79,7 +98,7 @@
                             >
 
                                 <a :href="img.thumb" v-for="(img) in gallery.images" class="gallery-item">
-                                    <img :src="img.original" />
+                                    <img class="shadow-lg rounded-lg" :src="img.original" />
                                 </a>
                                 
                             </lightgallery>
@@ -92,6 +111,7 @@
             <!-- Section: Design Block -->
             
         </div>
+        
     </main>   
 
     <footerdws />
@@ -134,7 +154,6 @@ export default {
     .gallery-item {
         width: 200px;
         display: inline-flex;
-        border: 1px solid #ccc;
         margin: 5px;
     }
 </style>

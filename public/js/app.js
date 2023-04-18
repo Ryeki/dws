@@ -167,30 +167,33 @@ __webpack_require__.r(__webpack_exports__);
 var _withScopeId = function _withScopeId(n) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-169e1534"), n = n(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)(), n;
 };
-var _hoisted_1 = {
+var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("link", {
+    rel: "stylesheet",
+    href: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+  }, null, -1 /* HOISTED */);
+});
+var _hoisted_2 = {
   "class": "mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8"
 };
-var _hoisted_2 = {
+var _hoisted_3 = {
   "class": "min-h-screen bg-slate-50"
 };
-var _hoisted_3 = {
+var _hoisted_4 = {
   "class": "mx-auto max-w-7xl py-6 sm:px-6 lg:px-8"
 };
-var _hoisted_4 = {
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"my-8 text-gray-800\" data-v-169e1534><div class=\"py-8 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-10\" data-v-169e1534><div class=\"block rounded-lg shadow-lg bg-white\" data-v-169e1534><div class=\"flex flex-wrap items-center\" data-v-169e1534><div class=\"hidden lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12\" data-v-169e1534><img src=\"/images/dani-office.jpg\" class=\"w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg\" data-v-169e1534></div><div class=\"grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12\" data-v-169e1534><div class=\"px-6 py-12 md:px-12 text-gray-800\" data-v-169e1534><div class=\"md:flex lg:hidden mb-6\" data-v-169e1534><img src=\"/images/dani-office.jpg\" class=\"w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg\" data-v-169e1534></div><h2 class=\"text-2xl font-bold mb-4\" data-v-169e1534>Technologies I use</h2><div class=\"grid grid-cols-4 gap-6\" data-v-169e1534><div class=\"mb-4\" data-v-169e1534><p class=\"font-bold mb-1\" data-v-169e1534>Laravel</p><p class=\"text-gray-500 text-6xl\" data-v-169e1534><i class=\"devicon-laravel-plain-wordmark colored\" data-v-169e1534></i></p></div><div class=\"mb-4\" data-v-169e1534><p class=\"font-bold mb-1\" data-v-169e1534>PHP</p><p class=\"text-gray-500 text-6xl\" data-v-169e1534><i class=\"devicon-php-plain colored\" data-v-169e1534></i></p></div><div class=\"mb-4\" data-v-169e1534><p class=\"font-bold mb-1\" data-v-169e1534>MySQL</p><p class=\"text-gray-500 text-6xl\" data-v-169e1534><i class=\"devicon-mysql-plain-wordmark colored\" data-v-169e1534></i></p></div><div class=\"mb-4\" data-v-169e1534><p class=\"font-bold mb-1\" data-v-169e1534>jQuery</p><p class=\"text-gray-500 text-6xl\" data-v-169e1534><i class=\"devicon-jquery-plain-wordmark colored\" data-v-169e1534></i></p></div><div class=\"mb-4\" data-v-169e1534><p class=\"font-bold mb-1\" data-v-169e1534>Vue.js</p><p class=\"text-gray-500 text-6xl\" data-v-169e1534><i class=\"devicon-vuejs-plain-wordmark colored\" data-v-169e1534></i></p></div></div></div></div></div></div></div></section>", 1);
+var _hoisted_6 = {
   "class": "dark:bg-gray-900"
 };
-var _hoisted_5 = {
-  "class": "py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-10"
+var _hoisted_7 = {
+  "class": "px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-10"
 };
-var _hoisted_6 = {
-  "class": "text-3xl font-bold mt-0 mb-4"
-};
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-wrap items-center\" data-v-169e1534><div class=\"grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0 md:px-6\" data-v-169e1534><div class=\"relative overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg\" data-mdb-ripple=\"true\" data-mdb-ripple-color=\"light\" style=\"background-position:50%;\" data-v-169e1534><img src=\"https://mdbootstrap.com/img/new/textures/full/126.jpg\" class=\"w-full\" data-v-169e1534><a href=\"#!\" data-v-169e1534><div class=\"absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed\" style=\"background-color:rgba(0, 0, 0, 0.4);\" data-v-169e1534><div class=\"flex justify-center items-center h-full\" data-v-169e1534><div class=\"px-6 py-12 md:px-12 text-white text-center\" data-v-169e1534><h3 class=\"text-2xl uppercase font-bold mb-6\" data-v-169e1534> The future is <u style=\"color:hsl(231, 52.6%, 85%);\" data-v-169e1534>now</u></h3><p style=\"color:hsl(231, 52.6%, 85%);\" data-v-169e1534> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quia laboriosam error consequuntur fugit, doloribus rerum, iure nesciunt amet quidem veniam cupiditate hic fugiat dolore aperiam quisquam libero earum quibusdam? </p></div></div></div><div class=\"relative overflow-hidden bg-no-repeat bg-cover\" data-v-169e1534><div class=\"absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out\" style=\"background-color:rgba(251, 251, 251, 0.2);\" data-v-169e1534></div></div></a></div></div><div class=\"grow-0 shrink-0 basis-auto w-full lg:w-7/12 md:px-6\" data-v-169e1534><div class=\"flex mb-12\" data-v-169e1534><div class=\"grow\" data-v-169e1534><p class=\"font-bold mb-1\" data-v-169e1534>Support 24/7</p><p class=\"text-gray-500\" data-v-169e1534> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quisquam quibusdam modi sapiente magni molestias pariatur facilis reprehenderit facere aliquam ex. </p></div></div></div></div>", 1);
 var _hoisted_8 = {
-  "class": "flex flex-wrap items-center text-center mt-4"
+  "class": "flex flex-wrap items-center text-center"
 };
 var _hoisted_9 = {
-  "class": "font-bold mb-1"
+  "class": "text-gray-800 text-3xl font-bold mb-1"
 };
 var _hoisted_10 = ["href"];
 var _hoisted_11 = ["src"];
@@ -201,13 +204,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_footerdws = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("footerdws");
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Head, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("title", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.title) + " - DWS", 1 /* TEXT */)];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("title", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.title) + " - DWS", 1 /* TEXT */), _hoisted_1];
     }),
-
     _: 1 /* STABLE */
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_navbardws, {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_navbardws, {
     isOpen: $data.isOpen
-  }, null, 8 /* PROPS */, ["isOpen"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.title), 1 /* TEXT */), _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.$page.props.galleries, function (gallery) {
+  }, null, 8 /* PROPS */, ["isOpen"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Section: Design Block "), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Section: Design Block "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.$page.props.galleries, function (gallery) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       key: gallery.id
     }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(gallery.title), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_lightgallery, {
@@ -225,6 +227,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             href: img.thumb,
             "class": "gallery-item"
           }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            "class": "shadow-lg rounded-lg",
             src: img.original
           }, null, 8 /* PROPS */, _hoisted_11)], 8 /* PROPS */, _hoisted_10);
         }), 256 /* UNKEYED_FRAGMENT */))];
@@ -462,17 +465,23 @@ var _hoisted_4 = {
   "class": "dark:bg-gray-900"
 };
 var _hoisted_5 = {
-  "class": "py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-10"
+  "class": "py-8 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-10"
 };
 var _hoisted_6 = {
-  "class": "text-3xl font-bold mt-0 mb-4"
+  "class": "flex justify-center text-center"
 };
 var _hoisted_7 = {
-  "class": "text-1xl text-gray-500 mb-8"
+  "class": "max-w-[800px]"
 };
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"carouselExampleIndicators\" class=\"carousel slide relative\" data-bs-ride=\"carousel\"><div class=\"carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4\"><button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"0\" class=\"active\" aria-current=\"true\" aria-label=\"Slide 1\"></button><button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"1\" aria-label=\"Slide 2\"></button><button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"2\" aria-label=\"Slide 3\"></button></div><div class=\"carousel-inner relative w-full overflow-hidden\"><div class=\"carousel-item active float-left w-full\"><img src=\"https://mdbcdn.b-cdn.net/img/new/slides/041.webp\" class=\"block w-full\" alt=\"Wild Landscape\"></div><div class=\"carousel-item float-left w-full\"><img src=\"https://mdbcdn.b-cdn.net/img/new/slides/042.webp\" class=\"block w-full\" alt=\"Camera\"></div><div class=\"carousel-item float-left w-full\"><img src=\"https://mdbcdn.b-cdn.net/img/new/slides/043.webp\" class=\"block w-full\" alt=\"Exotic Fruits\"></div></div><button class=\"carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide=\"prev\"><span class=\"carousel-control-prev-icon inline-block bg-no-repeat\" aria-hidden=\"true\"></span><span class=\"visually-hidden\">Previous</span></button><button class=\"carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide=\"next\"><span class=\"carousel-control-next-icon inline-block bg-no-repeat\" aria-hidden=\"true\"></span><span class=\"visually-hidden\">Next</span></button></div>", 1);
-var _hoisted_9 = ["src"];
-var _hoisted_10 = ["innerHTML"];
+var _hoisted_8 = {
+  "class": "text-gray-800 text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight mb-6"
+};
+var _hoisted_9 = {
+  "class": "text-gray-500 text-lg mb-6"
+};
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"carouselExampleIndicators\" class=\"carousel slide relative\" data-bs-ride=\"carousel\"><div class=\"carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4\"><button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"0\" class=\"active\" aria-current=\"true\" aria-label=\"Slide 1\"></button><button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"1\" aria-label=\"Slide 2\"></button><button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"2\" aria-label=\"Slide 3\"></button></div><div class=\"carousel-inner relative w-full overflow-hidden\"><div class=\"carousel-item active float-left w-full\"><img src=\"https://mdbcdn.b-cdn.net/img/new/slides/041.webp\" class=\"block w-full shadow-lg rounded-lg\" alt=\"Wild Landscape\"></div><div class=\"carousel-item float-left w-full\"><img src=\"https://mdbcdn.b-cdn.net/img/new/slides/042.webp\" class=\"block w-full shadow-lg rounded-lg\" alt=\"Camera\"></div><div class=\"carousel-item float-left w-full\"><img src=\"https://mdbcdn.b-cdn.net/img/new/slides/043.webp\" class=\"block w-full shadow-lg rounded-lg\" alt=\"Exotic Fruits\"></div></div><button class=\"carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide=\"prev\"><span class=\"carousel-control-prev-icon inline-block bg-no-repeat\" aria-hidden=\"true\"></span><span class=\"visually-hidden\">Previous</span></button><button class=\"carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide=\"next\"><span class=\"carousel-control-next-icon inline-block bg-no-repeat\" aria-hidden=\"true\"></span><span class=\"visually-hidden\">Next</span></button></div>", 1);
+var _hoisted_11 = ["innerHTML"];
+var _hoisted_12 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
   var _component_navbardws = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("navbardws");
@@ -485,12 +494,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1 /* STABLE */
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_navbardws, {
     isOpen: $data.isOpen
-  }, null, 8 /* PROPS */, ["isOpen"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.title), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.page.excerpt), 1 /* TEXT */), _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    src: _ctx.$page.props.page.image,
-    "class": "max-w-full h-auto my-6"
-  }, null, 8 /* PROPS */, _hoisted_9), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  }, null, 8 /* PROPS */, ["isOpen"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.title), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.page.excerpt), 1 /* TEXT */)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <h1 class=\"text-3xl font-bold mt-0 mb-4\">{{ $page.props.title }}</h1>\r\n                    <h3 class=\"text-1xl text-gray-500 mb-8\">{{ $page.props.page.excerpt }}</h3> "), _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "mt-6 text-gray-500",
     innerHTML: _ctx.$page.props.page.body
-  }, null, 8 /* PROPS */, _hoisted_10)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_footerdws)], 64 /* STABLE_FRAGMENT */);
+  }, null, 8 /* PROPS */, _hoisted_11), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: _ctx.$page.props.page.image,
+    "class": "max-w-full h-auto my-6 shadow-lg rounded-lg"
+  }, null, 8 /* PROPS */, _hoisted_12)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_footerdws)], 64 /* STABLE_FRAGMENT */);
 }
 
 /***/ }),
@@ -1382,7 +1392,7 @@ ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_u
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_lightgallery_css_lg_thumbnail_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_lightgallery_css_lg_zoom_css__WEBPACK_IMPORTED_MODULE_3__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.gallery-item[data-v-169e1534] {\r\n        width: 200px;\r\n        display: inline-flex;\r\n        border: 1px solid #ccc;\r\n        margin: 5px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.gallery-item[data-v-169e1534] {\r\n        width: 200px;\r\n        display: inline-flex;\r\n        margin: 5px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

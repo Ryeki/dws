@@ -13,13 +13,24 @@
     <main class="min-h-screen bg-slate-50">
         <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
 
-
             <section class="dark:bg-gray-900">
                 
-                <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-10">
+                <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-10">
                     
-                    <h1 class="text-3xl font-bold mt-0 mb-4">{{ $page.props.title }}</h1>
-                    <h3 class="text-1xl text-gray-500 mb-8">{{ $page.props.page.excerpt }}</h3>
+                    
+                    <div class="flex justify-center text-center">
+                        <div class="max-w-[800px]">
+                            <h1 class="text-gray-800 text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight mb-6">
+                                {{ $page.props.title }}
+                            </h1>
+                            <p class="text-gray-500 text-lg mb-6">
+                                {{ $page.props.page.excerpt }}
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- <h1 class="text-3xl font-bold mt-0 mb-4">{{ $page.props.title }}</h1>
+                    <h3 class="text-1xl text-gray-500 mb-8">{{ $page.props.page.excerpt }}</h3> -->
 
                     <div id="carouselExampleIndicators" class="carousel slide relative" data-bs-ride="carousel">
                         <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
@@ -48,21 +59,21 @@
                             <div class="carousel-item active float-left w-full">
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-                                class="block w-full"
+                                class="block w-full shadow-lg rounded-lg"
                                 alt="Wild Landscape"
                             />
                             </div>
                             <div class="carousel-item float-left w-full">
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-                                class="block w-full"
+                                class="block w-full shadow-lg rounded-lg"
                                 alt="Camera"
                             />
                             </div>
                             <div class="carousel-item float-left w-full">
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-                                class="block w-full"
+                                class="block w-full shadow-lg rounded-lg"
                                 alt="Exotic Fruits"
                             />
                             </div>
@@ -86,11 +97,11 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-                    
-                    <img v-bind:src="$page.props.page.image" class="max-w-full h-auto my-6" />
 
-                    <p v-html="$page.props.page.body">
+                    <p class="mt-6 text-gray-500" v-html="$page.props.page.body">
                     </p>
+
+                    <img v-bind:src="$page.props.page.image" class="max-w-full h-auto my-6 shadow-lg rounded-lg" />
                    
                 </div>
             </section>
