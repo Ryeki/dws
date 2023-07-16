@@ -61,6 +61,8 @@ class PageController extends Controller
 
             $tmpGalleryImages = array();
 
+            //testing
+
             foreach ($gallery->images as $img) {
 
                 $img = [
